@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Poppins:ital@1&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(img.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Poppins', serif;
+}
+
+.calculadora {
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.botao {
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: burlywood;
+    margin: 3px;
+}
+
+.botao:hover{
+    background-color: black;
+}
+
+#Resultado {
+   width: 207px;
+   height: 25px;
+   background-color: white;
+   margin: 5px;
+   font-size: 15x;
+   color: black;
+   text-align: left;
+   padding: 5px;
+}
